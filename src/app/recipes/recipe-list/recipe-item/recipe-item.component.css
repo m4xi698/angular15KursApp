@@ -1,0 +1,14 @@
+.a:hover{
+    background-color: lightgreen ;
+}
+.a:current{
+    background-color: lightgreen;
+}
+.recipe-style-one{
+    border-width: 4px;
+    border-color: darkolivegreen;
+    background-color:beige;
+}
+.picture-style-active{
+    background-color: lightgreen;
+}

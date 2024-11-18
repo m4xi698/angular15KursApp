@@ -1,0 +1,10 @@
+.seperated-recipes{
+    margin-top: 10PX;
+    margin-bottom: 10Px;
+}
+.button:hover{
+    background-color: darkseagreen;
+}
+.picture-style-active{
+    background-color: lightgreen;
+}

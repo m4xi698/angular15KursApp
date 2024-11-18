@@ -1,0 +1,33 @@
+
+<div class="row">
+  <div class="col-xs-12">
+    <input
+      size="5"
+      style="margin-top: 0Px;
+            margin-bottom: 10Px;
+            background-color: beige;
+            border-width: 3Px;
+            border-color: darkolivegreen;
+            ;"
+      type="text"
+      id="name"
+      class="form-control"
+      #recipeNameInput>
+    <button class="btn" (click)="onSelectRecipe()"
+            style=
+            "margin-bottom: -10Px;
+            background-color: darkolivegreen;
+            color:darkgrey;
+            ">Add New recipe</button>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <app-recipe-item *ngFor="let recipeElement of recipes; let i = index"
+    [recipe]="recipeElement"
+    [index]="i"
+    style="margin:10px"
+    ></app-recipe-item>
+  </div>
+</div>
+

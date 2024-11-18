@@ -1,0 +1,15 @@
+.header-style-one{
+    background-color: darkolivegreen;
+    outline-color: darkgreen;
+    color: blue;
+}
+.list-style-passive{
+    
+}
+.list-style-active{
+    background-color: darkseagreen;
+}
+.dropdown-style-one{
+    background-color: lightgray ;
+    text: darkolivegreen; 
+}
