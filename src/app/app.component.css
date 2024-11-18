@@ -1,6 +1,8 @@
 .backround-class{
     background-color: lightgrey;
     color:darkolivegreen;
+   min-height: 100vh;
+   overflow: visible;
 }
 .header-style-two{
     border-style:outset;

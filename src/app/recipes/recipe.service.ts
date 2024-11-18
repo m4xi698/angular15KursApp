@@ -31,7 +31,7 @@ export class RecipeService {
     new Recipe(
       'Schnitzel mit Spätzle',
       'Klassiker der Deutschen Wirtshäuser',
-      'https://media.istockphoto.com/id/1309699780/de/foto/ein-teller-mitschnitzel.jpg?s=2048x2048&w=is&k=20&c=CcGKBcGsk7HainLpcp9GQQ8dO5ZCRktrivpPWkt1iGE=',
+      'https://www.istockphoto.com/de/foto/wiener-schnitzel-with-fried-potato-and-sweet-potato-in-black-plate-on-a-wooden-table-gm2078843074-565080575?searchscope=image%2Cfilm',
       [
         new Ingredient('schnitzel', 2),
         new Ingredient('spätzle', 100),
@@ -39,7 +39,7 @@ export class RecipeService {
       ]
     ),
   ];
-  
+
 
   constructor(private slService: ShoppingService) {}
 

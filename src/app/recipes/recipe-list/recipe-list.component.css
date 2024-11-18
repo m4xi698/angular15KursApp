@@ -1,6 +1,7 @@
 .seperated-recipes{
     margin-top: 10PX;
     margin-bottom: 10Px;
+    overflow: visible;
 }
 .button:hover{
     background-color: darkseagreen;
